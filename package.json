@@ -1,0 +1,28 @@
+{
+	"name": "eslint-plugin-ami",
+	"version": "1.0.4",
+	"author": "Jerome Odier <jerome.odier@cern.ch>",
+	"description": "AMI specific linting rules for ESLint",
+	"main": "index.js",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ami-team/eslint-plugin-ami/"
+	},
+	"homepage": "https://github.com/ami-team/eslint-plugin-ami/",
+	"bugs": "https://github.com/ami-team/eslint-plugin-ami/issues/",
+	"devDependencies": {
+		"eslint": ">=2.2.0"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-plugin",
+		"eslintplugin",
+		"ami"
+	],
+	"license": "CECILL-C"
+}
