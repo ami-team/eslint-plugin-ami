@@ -2,7 +2,7 @@
 	"name": "eslint-plugin-ami",
 	"version": "1.0.4",
 	"author": "Jerome Odier <jerome.odier@cern.ch>",
-	"description": "AMI specific linting rules for ESLint",
+	"description": "AMI linting rules for ESLint",
 	"main": "index.js",
 	"files": [
 		"LICENSE",
