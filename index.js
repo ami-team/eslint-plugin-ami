@@ -36,8 +36,6 @@ module.exports = {
 				'$AMINamespace': false,
 				'$AMIClass': false,
 
-				'amiRegisterSubApp': false,
-
 				'amiCommand': false,
 				'amiWebApp': false,
 				'amiLogin': false,
@@ -50,7 +48,13 @@ module.exports = {
 
 				'$': false,
 				'jQuery': false,
-				'JSPath': false
+				'JSPath': false,
+
+				'require': false,
+				'module': false,
+				'modules': false,
+				'define': false,
+				'exports': false
 
 				/*-----------------------------------------*/
 			},
@@ -60,6 +64,7 @@ module.exports = {
 				/* IGNORE                                  */
 				/*-----------------------------------------*/
 
+				'no-useless-escape': 0,
 				'no-mixed-spaces-and-tabs': 0,
 
 				/*-----------------------------------------*/
