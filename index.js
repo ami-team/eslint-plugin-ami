@@ -2,8 +2,11 @@
  * AMI Web Framework
  * AMI linting rules for ESLint
  *
- * Copyright (c) 2014-2017 The AMI Team
+ * Copyright (c) 2014-XXXX The AMI Team / LPSC / IN2P3
+ *
+ * This file must be used under the terms of the CeCILL-C:
  * http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html
+ * http://www.cecill.info/licences/Licence_CeCILL-C_V1-fr.html
  *
  */
 
@@ -22,7 +25,9 @@ module.exports = {
 	'configs': {
 		'default': {	
 			'env': {
-				'browser': true
+				'browser': true,
+				'jquery': true,
+				'node': true
 			},
 		
 			'extends': 'eslint:recommended',
@@ -46,15 +51,10 @@ module.exports = {
 				/* 3RD-PARTY                               */
 				/*-----------------------------------------*/
 
-				'$': false,
-				'jQuery': false,
 				'JSPath': false,
 
-				'require': false,
-				'module': false,
-				'modules': false,
 				'define': false,
-				'exports': false
+				'modules': false,
 
 				/*-----------------------------------------*/
 			},
@@ -75,7 +75,7 @@ module.exports = {
 
 				'no-unused-vars': [
 					1,
-					{'vars': 'local', 'args': 'after-used'}
+					{'vars': 'all', 'args': 'after-used'}
 				],
 
 				/*-----------------------------------------*/
