@@ -1,8 +1,9 @@
 {
 	"name": "eslint-plugin-ami",
 	"version": "1.0.5",
-	"author": "Jerome Odier <jerome.odier@cern.ch>",
-	"description": "AMI linting rules for ESLint",
+	"description": "AMI rules for ESLint",
+	"author": "The AMI Team, Jerome Odier <jerome.odier@cern.ch>",
+	"license": "CECILL-C",
 	"main": "index.js",
 	"files": [
 		"LICENSE",
@@ -14,7 +15,6 @@
 		"url": "https://github.com/ami-team/eslint-plugin-ami/"
 	},
 	"homepage": "https://github.com/ami-team/eslint-plugin-ami/",
-	"bugs": "https://github.com/ami-team/eslint-plugin-ami/issues/",
 	"devDependencies": {
 		"eslint": ">=4.2.0"
 	},
@@ -23,6 +23,5 @@
 		"eslint-plugin",
 		"eslintplugin",
 		"ami"
-	],
-	"license": "CECILL-C"
+	]
 }
