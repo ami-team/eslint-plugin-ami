@@ -2,7 +2,7 @@
 	"name": "eslint-plugin-ami",
 	"version": "1.0.5",
 	"description": "AMI rules for ESLint",
-	"author": "The AMI Team, Jerome Odier <jerome.odier@cern.ch>",
+	"author": "The AMI Team, Jerome Odier <jerome.odier@lpsc.in2p3.fr>",
 	"license": "CECILL-C",
 	"main": "index.js",
 	"files": [
