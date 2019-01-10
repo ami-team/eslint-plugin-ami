@@ -23,7 +23,10 @@ module.exports = {
 	/*-----------------------------------------------------------------*/
 
 	'configs': {
-		'default': {	
+		'default': {
+			'parserOptions': {
+				'ecmaVersion': 2017
+			},
 			'env': {
 				'browser': true,
 				'jquery': true,
