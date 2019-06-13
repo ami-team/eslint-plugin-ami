@@ -55,6 +55,8 @@ module.exports = {
 				/* 3RD-PARTY                               */
 				/*-----------------------------------------*/
 
+				'popper': false,
+				'moment': false,
 				'JSPath': false,
 
 				'define': false,
