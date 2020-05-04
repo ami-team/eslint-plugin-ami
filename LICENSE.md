@@ -3,4 +3,3 @@ English version:
 
 French version:
  * LICENSE-FR
-
