@@ -41,6 +41,9 @@ module.exports = {
 				/* AMI                                     */
 				/*-----------------------------------------*/
 
+				'_ami_internal_always': false,
+				'_ami_internal_then': false,
+
 				'$AMIInterface': false,
 				'$AMINamespace': false,
 				'$AMIClass': false,
@@ -48,6 +51,7 @@ module.exports = {
 				'amiCommand': false,
 				'amiWebApp': false,
 				'amiLogin': false,
+				'amiTwig': false,
 
 				'ami': false,
 

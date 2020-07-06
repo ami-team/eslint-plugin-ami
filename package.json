@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-ami",
-	"version": "1.0.8",
+	"version": "1.0.10",
 	"description": "AMI rules for ESLint",
 	"author": "The AMI Team, Jerome Odier <jerome.odier@lpsc.in2p3.fr>",
 	"license": "CECILL-C",
