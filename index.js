@@ -25,7 +25,7 @@ module.exports = {
 	'configs': {
 		'default': {
 			'parserOptions': {
-				'ecmaVersion': 2017
+				'ecmaVersion': 2018
 			},
 			'env': {
 				'browser': true,
@@ -62,6 +62,7 @@ module.exports = {
 				'popper': false,
 				'moment': false,
 				'JSPath': false,
+				'ace': false,
 
 				'define': false,
 				'modules': false,
