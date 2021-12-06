@@ -41,16 +41,15 @@ module.exports = {
 				/* AMI                                     */
 				/*-----------------------------------------*/
 
-				'_ami_internal_always': false,
-				'_ami_internal_then': false,
-
 				'$AMIInterface': false,
 				'$AMINamespace': false,
 				'$AMIClass': false,
 
 				'amiCommand': false,
+				'amiRouter': false,
 				'amiWebApp': false,
 				'amiLogin': false,
+				'amiAuth': false,
 				'amiTwig': false,
 
 				'ami': false,
@@ -62,7 +61,6 @@ module.exports = {
 				'popper': false,
 				'moment': false,
 				'JSPath': false,
-				'ace': false,
 
 				'define': false,
 				'modules': false,

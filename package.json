@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-ami",
-	"version": "1.0.13",
+	"version": "1.0.14",
 	"description": "AMI rules for ESLint",
 	"author": "The AMI Team, Jerome Odier <jerome.odier@lpsc.in2p3.fr>",
 	"license": "CECILL-C",
@@ -16,7 +16,7 @@
 	},
 	"homepage": "https://github.com/ami-team/eslint-plugin-ami/",
 	"devDependencies": {
-		"eslint": ">=7.29.0"
+		"eslint": ">=8.3.0"
 	},
 	"keywords": [
 		"eslint",
