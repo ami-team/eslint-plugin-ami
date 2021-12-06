@@ -60,7 +60,7 @@ module.exports = {
 
 				'popper': false,
 				'moment': false,
-				'JSPath': false,
+				'monaco': false,
 
 				'define': false,
 				'modules': false,
